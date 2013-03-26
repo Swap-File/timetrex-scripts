@@ -20,7 +20,7 @@ if ($mail->countMessages() > 0) {
 
         //connect to timetrex
         require_once('../../classes/modules/api/client/TimeTrexClientAPI.class.php');
-        $TIMETREX_URL = 'http://10.183.0.99:8085/api/soap/api.php';
+        $TIMETREX_URL = 'http://DOMAIN:8085/api/soap/api.php';
         $TIMETREX_USERNAME = 'admin';
         $TIMETREX_PASSWORD = 'PASSWORD';
 
